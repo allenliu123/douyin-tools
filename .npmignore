@@ -1,0 +1,20 @@
+
+# sources are inlined
+lib
+
+# Tests
+tests
+node-test
+
+# CI
+.github
+
+# Eslint
+.eslintignore
+.eslintrc.js
+commitlint.config.js
+.prettierignore
+.prettierrc
+
+# Internal jest config
+jest.config.js

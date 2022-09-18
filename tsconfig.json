@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "declaration": true,
+    "outDir": "./dist",
+    "strict": true,
+    "baseUrl": "./",
+    "lib": ["es6"],
+    "paths": {
+      "@/*": ["./lib/*"]
+    },
+  },
+  "include": ["lib"],
+  "exclude": ["node_modules", "**/tests/*"]
+}
