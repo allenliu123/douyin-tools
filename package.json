@@ -1,6 +1,6 @@
 {
   "name": "douyin-tools",
-  "version": "0.0.2-beta",
+  "version": "0.0.2",
   "description": "抖音相关的一些工具方法",
   "main": "dist/index.js",
   "scripts": {

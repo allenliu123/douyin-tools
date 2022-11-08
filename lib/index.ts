@@ -9,10 +9,12 @@ import {
 import {
   shareUrl
 } from '@/utils/index'
+import generateSignature from './js/generateSignature.js'
 
 export {
   parseHomeUrl,
   parseShareUrl,
   shareUrl,
-  matchIdFromShareUrl
+  matchIdFromShareUrl,
+  generateSignature
 }
