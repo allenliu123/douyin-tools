@@ -1,6 +1,4 @@
 
-export const Greeter = (name: string) => `Hello ${name}`;
-
 import {
   parseHomeUrl,
   parseShareUrl,
@@ -9,12 +7,10 @@ import {
 import {
   shareUrl
 } from '@/utils/index'
-import generateSignature from './js/generateSignature.js'
 
 export {
   parseHomeUrl,
   parseShareUrl,
   shareUrl,
-  matchIdFromShareUrl,
-  generateSignature
+  matchIdFromShareUrl
 }
